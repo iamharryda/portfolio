@@ -1,0 +1,105 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header{
+    background-image: url(Images/Background.avif);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: 1500px ;
+}
+header h2{
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+    color: aliceblue;
+}
+li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+li{
+    padding: 10px 30px;
+    list-style: none;
+    display: inline-block
+}
+.nav{
+    text-align: center;
+
+}
+li a:hover{
+    color: greenyellow;
+}
+header h1{
+    padding-top: 100px;
+    font-size: 60px;
+    text-align: center;
+    color: aliceblue;
+}
+.project{
+    margin: 30px 20px;
+    padding: 30px 20px;
+    border: 5px solid gray;
+    border-radius: 10px;
+    box-shadow: 10px 10px;
+}
+.project h3{
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+.pic{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+.pic p{
+    padding-left: 100px;
+}
+img{
+    height: 250px;
+    /* margin-right: ; */
+    border-radius: 10px;
+}
+
+.pic2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pic2 p{
+    padding-right: 100px;
+}
+
+
+
+footer{
+    background-color: rgb(44, 43, 43);
+    border: 3px solid tomato;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px 10px;
+}
+.contact-form{
+    padding: 20px 10px;
+    border: 3px solid blue;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+.form-box{
+    border: 3px solid seagreen;
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+
+
