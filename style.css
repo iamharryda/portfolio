@@ -5,9 +5,11 @@
 
 header{
     background-image: url(Images/Background.avif);
-    height: 400px;
+    height: 50vh;
     background-repeat: no-repeat;
-    background-size: 1500px ;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
 }
 header h2{
     padding: 30px;
@@ -77,15 +79,13 @@ img{
 
 footer{
     background-color: rgb(44, 43, 43);
-    border: 3px solid tomato;
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin: 20px 10px;
+    color: aliceblue;
 }
 .contact-form{
-    padding: 20px 10px;
-    border: 3px solid blue;
+    padding: 50px 10px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -94,10 +94,14 @@ footer{
     
 }
 .form-box{
-    border: 3px solid seagreen;
     width: 50%;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 2fr;
+    color: aliceblue;
+    row-gap: 20px;
+}
+.form-box label{
+    text-align: left;
 }
 
 
